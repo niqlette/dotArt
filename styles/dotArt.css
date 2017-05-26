@@ -1,0 +1,9 @@
+.kapszula {
+    border: 1px solid black;
+    border-radius: 100px;
+    display: inline-block;
+    margin: 8px;
+    padding: 8px;
+    width: 100px;
+    height: 100px;
+}

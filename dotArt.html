@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="hu">
+    <head>
+        <title>.Art</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type"text/css" href="styles/dotArt.css">
+    </head>
+    <body>
+        <div align="center">
+            <h1>.Art</h1>
+            <!-- display -->
+            <div class="displayWindow">
+            </div>
+            <hr>
+            <h1>Kapszula hozzáadása</h1>
+            <!-- color -->
+            <label>Válassz egy színt: <input type="color" id="color"></label>
+            <br>
+            <!-- hozzáadás -->
+            <button type="button" onclick="unshift_kapsz()">Rakd az elejére!</button>
+            <button type="button" onclick="push_kapsz()">Rakd az végére!</button>
+            <hr>
+            <h1>Kapszula kivétele</h1>
+            <!-- kivétel -->
+            <button type="button" onclick="shift_kapsz()">Vedd le az elejéről!</button>
+            <button type="button" onclick="pop_kapsz()">Vedd le a végéről!</button>
+        <!-- <button type="button" onclick="genKapsz()">Próba gomb</button> -->
+        </div>
+    <script type="text/javascript" src="scripts/dotArt.js"></script>
+    </body>
+</html>
