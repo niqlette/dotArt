@@ -16,18 +16,18 @@ function genKapsz() {
 //elejére rak a tömbben
 function unshift_kapsz() {
     var kapszColor = document.getElementById("color").value;
-    var unshifted = tube.unshift(kapszColor);
+    tube.unshift(kapszColor);
     genKapsz();
 }
 
 //végére rak a tömbben
 function push_kapsz() {
     var kapszColor = document.getElementById("color").value;
-    var pushed = tube.push(kapszColor);
+    tube.push(kapszColor);
     genKapsz();
 }
 
-//levesz az elejéről
+//levesz az elejéről; törlésnél nem kell külön color.value mert csak lefuttatjuk a shift() metódust a megfelelő tömbbön és elvégzi amit kell
 function shift_kapsz() {
     tube.shift();
     genKapsz();
